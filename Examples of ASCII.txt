@@ -1,0 +1,73 @@
+The examples below show IDLE's restart banner and post-execution >>> prompt. Text in blue is user input.
+
+=============== RESTART: street.py ===============
+Street: p:5,+
++-----+
+|     |
+|  +  |
+| +++ |
+|+++++|
+|  |  |
+|  |  |
++-----+
+>>> 
+=============== RESTART: street.py ===============
+Street: p:21,-
++---------------------+
+|                     |
+|          -          |
+|         ---         |
+|        -----        |
+|          |          |
+|          |          |
++---------------------+
+>>> 
+=============== RESTART: street.py ===============
+Street: b:4,7,=
++----+
+|    |
+|====|
+|====|
+|====|
+|====|
+|====|
+|====|
+|====|
++----+
+>>> 
+=============== RESTART: street.py ===============
+Street: e:10,_._`
++----------+
+|          |
+| . ` . ` .|
++----------+
+>>> 
+=============== RESTART: street.py ===============
+Street: p:5,+  b:4,7,=  e:10,_._`  b:3,3,:  p:21,-
++-------------------------------------------+
+|                                           |
+|     ====                                  |
+|     ====                                  |
+|  +  ====                       -          |
+| +++ ====                      ---         |
+|+++++====          :::        -----        |
+|  |  ====          :::          |          |
+|  |  ==== . ` . ` .:::          |          |
++-------------------------------------------+
+>>>
+=============== RESTART: street.py ===============
+Street: b:1,1,x  b:2,4,x b:4,8,x b:10,10,x b:4,8,x  b:2,4,x  b:1,1,x
++------------------------+
+|                        |
+|       xxxxxxxxxx       |
+|       xxxxxxxxxx       |
+|   xxxxxxxxxxxxxxxxxx   |
+|   xxxxxxxxxxxxxxxxxx   |
+|   xxxxxxxxxxxxxxxxxx   |
+|   xxxxxxxxxxxxxxxxxx   |
+| xxxxxxxxxxxxxxxxxxxxxx |
+| xxxxxxxxxxxxxxxxxxxxxx |
+| xxxxxxxxxxxxxxxxxxxxxx |
+|xxxxxxxxxxxxxxxxxxxxxxxx|
++------------------------+
+>>>
